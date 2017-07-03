@@ -1,0 +1,1 @@
+Adds an 'automated table of content' element to davidenke/newsletter_content

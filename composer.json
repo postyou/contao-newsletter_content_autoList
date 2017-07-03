@@ -1,0 +1,33 @@
+{
+    "name": "postyou/newsletter_content_autoList",
+    "type": "contao-module",
+    "description": "Adds an 'automated table of content' element to davidenke/newsletter_content",
+    "keywords": ["contao","newsletter","content"],
+    "homepage": "https://github.com/postyou/newsletter_content_autoList",
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "Gerald Meier",
+            "homepage": "https://www.postyou.de",
+            "role": "Developer"
+        }
+    ],
+    "support":{
+        "issues":"https://github.com/postyou/newsletter_content_autoList/issues",
+        "source":"https://github.com/postyou/newsletter_content_autoList"
+    },
+    "require": {
+	    "php":">=5.3.2",
+        "contao/core":">=3.2,<4-dev"
+    },
+    "autoload": {
+        "classmap": [""]
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "": "system/modules/newsletter_content_autoList"
+            }
+        }
+    }
+}
